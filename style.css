@@ -1,0 +1,434 @@
+body {
+  background-color: rgb(243, 239, 234);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.imgtxt {
+  font-size: 55px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.button-overlay {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.imgtxt {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgtxt2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family: "Oswald";
+  font-weight: 450;
+}
+
+.imgtxt3 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-family: "Oswald";
+  font-weight: 450;
+  margin-top: 120px;
+  font-size: 60px;
+}
+
+.imgtxt4 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-family: "Oswald";
+  font-weight: 450;
+  margin-top: 190px;
+  font-size: 17px;
+}
+
+.faq {
+  font-size: 25px;
+  font-family: "Oswald";
+  text-align: center;
+  font-weight: 100;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.faqQ {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald";
+  font-weight: 300;
+}
+
+.faqH {
+  margin-top: 100px;
+  padding-left: 5%;
+  font-size: 40px;
+  font-family: "Oswald";
+  text-align: center;
+  font-weight: 400;
+}
+
+.navigationBar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  background-color: #84bf8c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.startNow {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
+}
+
+.startNowB {
+  margin-left: 47.5%;
+  background-image: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-overlay {
+  position: relative;
+  display: inline-block;
+}
+.button-overlay button {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: rgb(255, 249, 249);
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.HomeB {
+  margin-bottom: 10px;
+}
+
+.HomeB {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.HomeB span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.HomeB svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.HomeB:hover svg {
+  transform: translateX(0);
+}
+
+.HomeB:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff4f4;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.HomeB:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.wave-group {
+  position: relative;
+}
+
+.wave-group .input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+}
+
+.wave-group .input:focus {
+  outline: none;
+}
+
+.wave-group .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  display: flex;
+}
+
+.wave-group .label-char {
+  transition: 0.2s ease all;
+  transition-delay: calc(var(--index) * 0.05s);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #5264ae;
+}
+
+.wave-group .bar {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+.wave-group .bar:before,
+.wave-group .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.wave-group .bar:before {
+  left: 50%;
+}
+
+.wave-group .bar:after {
+  right: 50%;
+}
+
+.wave-group .input:focus ~ .bar:before,
+.wave-group .input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.cssbuttons-io-button {
+  margin-top: 10;
+}
+
+.cssbuttons-io-button {
+  background: #16501e;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #16501e;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #16501e;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #16501e;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+.cta3 {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta3 span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta3 svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta3:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.cta3:hover svg {
+  transform: translateX(0);
+}
+
+.cta3:active {
+  transform: scale(0.95);
+}
+
+.contactUs {
+  background-color: #84bf8c;
+}
+
+.cUs {
+  font-size: 40px;
+  font-family: "Oswald";
+  font-optical-sizing: auto;
+}
+
+.savingsImage {
+  height: 100px;
+  width: 100px;
+}

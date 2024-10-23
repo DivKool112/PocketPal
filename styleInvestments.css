@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(243, 239, 234);
+}
+
+.InvestButton {
+  background: transparent;
+  border: none;
+}
+
+.investmentsImage {
+  height: 200px;
+  width: 200px;
+}

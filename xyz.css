@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(243, 239, 234);
+}
+
+.layout {
+  margin-left: 15%;
+  margin-right: 20%;
+  border-radius: 2%;
+  background-color: rgba(194, 192, 159, 0.203);
+}
+h1 {
+  text-align: center;
+  font-family: "Oswald";
+}
+h2 {
+  text-align: center;
+  font-family: "Oswald";
+}
+
+h3 {
+  font-family: "Oswald";
+  font-size: 20px;
+}
+
+.list {
+  text-decoration: rgb(0, 121, 8);
+}
+
+.photoscredit {
+  margin-left: 20%;
+}
+.photoscredit2 {
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+.BodyText {
+  font-size: 25;
+  font-family: "Barlow Condensed";
+}
+
+.sec-1 {
+  display: flex;
+}
+.sec2 {
+  display: flex;
+}
